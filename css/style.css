@@ -313,6 +313,10 @@ a {
 	color: rgba(0, 0, 0, 0.5);
 }
 
+.catalog-list-item-image {
+	background-color: #efefef;
+}
+
 .add-to-compare:hover {
 	color: rgb(0, 0, 0);
 }
@@ -326,6 +330,7 @@ a {
 	line-height: 24px;
 	letter-spacing: 0.16px;
 }
+
 /*--pagination--*/
 .pagination-item,
 .pagination-item a {
