@@ -7,226 +7,282 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-   <header class="site-header">
+   <header class="site-header container">
    		<h1 class="visually-hidden">
    			Интернет-магазин електроники Device
    		</h1>
    		<nav class="site-header-navigation">
-   			<a href="#" class="site-header-logo">
-	   			<img src="img/svg-device/logo-device.svg" width="163" height="35" alt="Логотип сайта">
-	   		</a>
-	   		<div class="site-header-search">
-	   			<form action="https://echo.htmlacademy.ru" method="post">
-	   				<input type="text" class="input-search" placeholder="Поиск по сайту">
-	   				<button type="submit" class="button-search">Найти</button>
-	   			</form>
-	   		</div>
-	   		<ul class="site-header-enter-list list-style-none">
-	   			<li class="site-header-enter-item">
-	   				<a href="#" class="site-header-enter-link">Войти</a>
-	   			</li>
-	   		</ul>
-	   		<ul class="site-header-action-list list-style-none">
-	   			<li class="site-header-action-item">
-	   				<a href="#" class="site-header-action-link">Сравнить</a>
-	   			</li>
-	   			<li class="site-header-action-item">
-	   				<a href="#" class="site-header-action-link">Корзина</a>
-	   			</li>
-	   		</ul>
-	   		<ul class="site-header-menu-list list-style-none">
-	   			<li class="site-header-menu-item">
-	   				<a href="#" class="site-header-menu-item-link">Каталог товаров</a>
-	   				<ul class="site-header-menu-drop">
-	   					<li class="site-header-menu-item">
-	   						<a href="#" class="site-header-menu-item-link">
-	   							Виртуальная реальность
-	   						</a>
-	   					</li>
-	   					<li class="site-header-menu-item">
-	   						<a href="#" class="site-header-menu-item-link">
-	   							Моноподы для селфи
-	   						</a>
-	   					</li>
-	   					<li class="site-header-menu-item">
-	   						<a href="#" class="site-header-menu-item-link">Экшн-камеры</a>
-	   					</li>
-	   					<li class="site-header-menu-item">
-	   						<a href="#" class="site-header-menu-item-link">Фитнес-браслеты</a>
-	   					</li>
-	   					<li class="site-header-menu-item">
-	   						<a href="#" class="site-header-menu-item-link">Умные часы</a>
-	   					</li>
-	   					<li class="site-header-menu-item">
-	   						<a href="#" class="site-header-menu-item-link">Квадрокоптеры</a>
-	   					</li>
-	   				</ul>
-	   			</li>
-	   			<li class="site-header-menu-item">
-	   				<a href="#" class="site-header-menu-item-link">Доставка</a>
-	   			</li>
-	   			<li class="site-header-menu-item">
-	   				<a href="#" class="site-header-menu-item-link">Гарантия</a>
-	   			</li>
-	   			<li class="site-header-menu-item">
-	   				<a href="#" class="site-header-menu-item-link">Контакты</a>
-	   			</li>
-	   		</ul>
+   			<div class="site-header-logo-row grid-row">
+   				<div class="grid-column">
+   					<a href="#" class="site-header-logo">
+			   			<img src="img/svg-device/logo-device.svg" width="163" height="35" alt="Логотип сайта">
+			   		</a>
+   				</div>
+   			</div>
+			<div class="site-header-top-navigation-row grid-row justify-content-between">
+				<div class="site-header-search grid-column">
+		   			<form action="https://echo.htmlacademy.ru" method="post">
+		   				<input type="text" class="input-search" placeholder="Поиск по сайту">
+		   				<button type="submit" class="button-search">Найти</button>
+		   			</form>
+		   		</div>
+		   		<div class="site-header-top-lists-column grid-coumn">
+		   			<div class="grid-row justify-content-between">
+		   				<div class="site-header-enter-column grid-column">
+		   					<ul class="site-header-enter-list list-style-none">
+					   			<li class="site-header-enter-item">
+					   				<a href="#" class="site-header-enter-link">Войти</a>
+					   			</li>
+					   		</ul>
+		   				</div>
+		   				<div class="site-header-action-column grid-column">
+		   					<ul class="site-header-action-list list-style-none">
+					   			<li class="site-header-action-item">
+					   				<a href="#" class="site-header-action-link">Сравнить</a>
+					   			</li>
+					   			<li class="site-header-action-item">
+					   				<a href="#" class="site-header-action-link">Корзина</a>
+					   			</li>
+					   		</ul>
+		   				</div>
+		   			</div>
+		   		</div>
+			</div>
+			<div class="site-header-bottom-navigation-row grid-row">
+				<div class="grid-colmn">
+					<ul class="site-header-menu-list list-style-none">
+			   			<li class="site-header-menu-item">
+			   				<a href="#" class="site-header-menu-item-link">Каталог товаров</a>
+			   				<ul class="site-header-menu-drop">
+			   					<li class="site-header-menu-item">
+			   						<a href="#" class="site-header-menu-item-link">
+			   							Виртуальная реальность
+			   						</a>
+			   					</li>
+			   					<li class="site-header-menu-item">
+			   						<a href="#" class="site-header-menu-item-link">
+			   							Моноподы для селфи
+			   						</a>
+			   					</li>
+			   					<li class="site-header-menu-item">
+			   						<a href="#" class="site-header-menu-item-link">Экшн-камеры</a>
+			   					</li>
+			   					<li class="site-header-menu-item">
+			   						<a href="#" class="site-header-menu-item-link">Фитнес-браслеты</a>
+			   					</li>
+			   					<li class="site-header-menu-item">
+			   						<a href="#" class="site-header-menu-item-link">Умные часы</a>
+			   					</li>
+			   					<li class="site-header-menu-item">
+			   						<a href="#" class="site-header-menu-item-link">Квадрокоптеры</a>
+			   					</li>
+			   				</ul>
+			   			</li>
+			   			<li class="site-header-menu-item">
+			   				<a href="#" class="site-header-menu-item-link">Доставка</a>
+			   			</li>
+			   			<li class="site-header-menu-item">
+			   				<a href="#" class="site-header-menu-item-link">Гарантия</a>
+			   			</li>
+			   			<li class="site-header-menu-item">
+			   				<a href="#" class="site-header-menu-item-link">Контакты</a>
+			   			</li>
+			   		</ul>
+				</div>
+			</div>
    		</nav>
    </header>
 	<main>
 		<section class="categories">
-			<h2 class="h2 visually-hidden">Категории</h2>
-			<ul class="categories-list list-style-none">
-				<li class="categories-list-item">
-					<a href="#">
-						 <div class="categories-list-item-img">
-						 	<img src="img/svg-device/popular-1.svg" width="97" height="55" alt="Виртуальная реальность">
-						 </div>
-						<h3>
-							Виртуальная реальность
-						</h3>
-					</a>
-				</li>
-				<li class="categories-list-item">
-					<a href="#">
-						 <div class="categories-list-item-img">
-						 	<img src="img/svg-device/popular-2.svg" width="86" height="117" alt="Моноподы для селфи">
-						 </div>
-						<h3>
-							Моноподы для селфи
-						</h3>
-					</a>
-				</li>
-				<li class="categories-list-item">
-					<a href="#">
-						 <div class="categories-list-item-img">
-						 	<img src="img/svg-device/popular-3.svg" width="71" height="87" alt="Экшн-камеры">
-						 </div>
-						<h3>
-							Экшн-камеры
-						</h3>
-					</a>
-				</li>
-				<li class="categories-list-item">
-					<a href="#">
-						 <div class="categories-list-item-img">
-						 	<img src="img/svg-device/popular-4.svg" width="107" height="65" alt="Фитнес-браслеты">
-						 </div>
-						<h3>
-							Фитнес-браслеты
-						</h3>
-					</a>
-				</li>
-				<li class="categories-list-item">
-					<a href="#">
-						 <div class="categories-list-item-img">
-						 	<img src="img/svg-device/popular-5.svg" width="56" height="98" alt="Умные часы">
-						 </div>
-						<h3>
-							Умные часы
-						</h3>
-					</a>
-				</li>
-				<li class="categories-list-item">
-					<a href="#">
-						 <div class="categories-list-item-img">
-						 	<img src="img/svg-device/popular-6.svg" width="132" height="69" alt="Квадрокоптеры">
-						 </div>
-						<h3>
-							Квадрокоптеры
-						</h3>
-					</a>
-				</li>
-			</ul>
+			<div class="container">
+				<h2 class="h2 visually-hidden">Поплярные категории</h2>
+				<ul class="categories-list list-style-none grid-row justify-content-between">
+					<li class="categories-list-item">
+						<a href="#">
+							<div class="categories-list-item-img">
+								<img src="img/svg-device/popular-1.svg" width="97" height="55" alt="Виртуальная реальность">
+							</div>
+							<h3>
+								Виртуальная реальность
+							</h3>
+						</a>
+					</li>
+					<li class="categories-list-item">
+						<a href="#">
+							<div class="categories-list-item-img">
+								<img src="img/svg-device/popular-2.svg" width="86" height="117" alt="Моноподы для селфи">
+							</div>
+							<h3>
+								Моноподы для селфи
+							</h3>
+						</a>
+					</li>
+					<li class="categories-list-item">
+						<a href="#">
+							<div class="categories-list-item-img">
+								<img src="img/svg-device/popular-3.svg" width="71" height="87" alt="Экшн-камеры">
+							</div>
+							<h3>
+								Экшн-камеры
+							</h3>
+						</a>
+					</li>
+					<li class="categories-list-item">
+						<a href="#">
+							<div class="categories-list-item-img">
+								<img src="img/svg-device/popular-4.svg" width="107" height="65" alt="Фитнес-браслеты">
+							</div>
+							<h3>
+								Фитнес-браслеты
+							</h3>
+						</a>
+					</li>
+					<li class="categories-list-item">
+						<a href="#">
+							<div class="categories-list-item-img">
+								<img src="img/svg-device/popular-5.svg" width="56" height="98" alt="Умные часы">
+							</div>
+							<h3>
+								Умные часы
+							</h3>
+						</a>
+					</li>
+					<li class="categories-list-item">
+						<a href="#">
+								<div class="categories-list-item-img">
+									<img src="img/svg-device/popular-6.svg" width="132" height="69" alt="Квадрокоптеры">
+								</div>
+							<h3>
+								Квадрокоптеры
+							</h3>
+						</a>
+					</li>
+				</ul>
+			</div>
 		</section>
 		<section class="brands">
-			<ul class="brands-list list-style-none">
-				<li>
-					<img src="img/brands/logo-1.jpg" width="260" height="100" alt="Логотип компании DJI">
-				</li>
-				<li>
-					<img src="img/brands/logo-2.jpg" width="260" height="100" alt="Логотип компании Sp">
-				</li>
-				<li>
-					<img src="img/brands/logo-3.jpg" width="260" height="100" alt="Логотип компании GoPro">
-				</li>
-				<li>
-					<img src="img/brands/logo-4.jpg" width="260" height="100" alt="Логотип компании Vive">
-				</li>
-			</ul>
-		</section>
-		<div class="row">
-			<section class="about-us">
-				<h2 class="h2">О нас</h2>
-				<p>
-					Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас 
-				</p>
-				<p>
-					Мы м
-					ожем доставить ваш товар в самые отдаленные точки Росии! Device аботает со многими транспортными компаниями:
-				</p>
-				<ul class="company-list list-style-none">
-					<li><b>Деловые линии</b></li>
-					<li><b>Автотрейдинг</b></li>
-					<li><b>ЖелДорЭкспедиция</b></li>
+			<div class="container">
+				<h2 class="h2 visually-hidden">Бренды</h2>
+				<ul class="brands-list list-style-none grid-row justify-content-between">
+					<li class="brands-item">
+						<img src="img/brands/logo-1.jpg" width="260" height="100" alt="Логотип компании DJI">
+					</li>
+					<li class="brands-item">
+						<img src="img/brands/logo-2.jpg" width="260" height="100" alt="Логотип компании Sp">
+					</li>
+					<li class="brands-item">
+						<img src="img/brands/logo-3.jpg" width="260" height="100" alt="Логотип компании GoPro">
+					</li>
+					<li class="brands-item">
+						<img src="img/brands/logo-4.jpg" width="260" height="100" alt="Логотип компании Vive">
+					</li>
 				</ul>
-				<a href="#" class="standard-button">Подробнее о нас</a>
-			</section>
-			<section class="contacts">
-				<h2 class="h2">Контакты</h2>
-				<p>
-					Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупкию Всякое бывает
-				</p>
-				<div class="contacts-map">
-					<img src="img/map.jpg" alt="">
-				</div>
-				<button type="button" class="standard-button">Напишите нам</button>
-			</section>
+			</div>
+		</section>
+		<div class="contacts-about-us-container container">
+			<div class="contacts-about-us-row grid-row justify-content-between">
+				<section class="about-us grid-column">
+					<h2 class="h2">О нас</h2>
+					<p>
+						Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас 
+					</p>
+					<p>
+						Мы м
+						ожем доставить ваш товар в самые отдаленные точки Росии! Device аботает со многими транспортными компаниями:
+					</p>
+					<ul class="company-list list-style-none">
+						<li><b>Деловые линии</b></li>
+						<li><b>Автотрейдинг</b></li>
+						<li><b>ЖелДорЭкспедиция</b></li>
+					</ul>
+					<a href="#" class="standard-button">Подробнее о нас</a>
+				</section>
+				<section class="contacts grid-column">
+					<h2 class="h2">Контакты</h2>
+					<p>
+						Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупкию Всякое бывает
+					</p>
+					<div class="contacts-map">
+						<img src="img/map.jpg" alt="">
+					</div>
+					<button type="button" class="standard-button">Напишите нам</button>
+				</section>
+			</div>
 		</div>
 	</main>
 	<footer class="site-footer">
-		<a href="#" class="logo">
-			<img src="img/svg-device/logo-device-yellow.svg"  width="163" height="35" alt="Логотип сайта">
-		</a>
-	   	<ul class="site-header-enter-list list-style-none">
-	   		<li class="site-header-enter-item">
-	   			<a href="#" class="site-header-enter-link">Войти</a>
-	   		</li>
-	   	</ul>
-	   	<ul class="site-header-action-list list-style-none">
-	   		<li class="site-header-action-item">
-	   			<a href="#" class="site-header-action-link">Сравнить</a>
-	   		</li>
-	   		<li class="site-header-action-item">
-	   			<a href="#" class="site-header-action-link">Корзина</a>
-	   		</li>
-	   	</ul>
-		<address class="site-footer-address">
-			г. Москва, ул. Строителей, 15
-		</address>
-		<ul class="site-footer-menu-list list-style-none">
-			<li><a href="#">Доставка</a></li>
-			<li><a href="#">Гарантия</a></li>
-			<li><a href="#">Контакты</a></li>
-		</ul>
-		<p class="site-footer-phone">
-			Тел: +7(495)495-95-95
-		</p>
-		<ul class="site-footer-social list-style-none">
-			<li>
-				<a href="#">Facebook</a>
-			</li>
-			<li>
-				<a href="#">Instagram</a>
-			</li>
-			<li>
-				<a href="#">Twitter</a>
-			</li>
-		</ul>
-		<p>	
-   			<a href="#" class="made-in-link">html academy</a>
-   		</p>
+		<div class="container">
+			<div class="site-footer-top-row grid-row justify-content-between">
+				<div class="site-footer-logo grid-column">
+					<a href="#" class="logo">
+						<img src="img/svg-device/logo-device-yellow.svg"  width="163" height="35" alt="Логотип сайта">
+					</a>
+				</div>
+				<div class="site-footer-top-lists-column grid-column">
+					<div class="grid-row">
+						<div class="site-header-enter-column grid-column">
+							<ul class="site-header-enter-list list-style-none">
+						   		<li class="site-header-enter-item">
+						   			<a href="#" class="site-header-enter-link">Войти</a>
+						   		</li>
+						   	</ul>
+						</div>
+						<div class="site-header-action-column grid-column">
+							<ul class="site-header-action-list list-style-none">
+						   		<li class="site-header-action-item">
+						   			<a href="#" class="site-header-action-link">Сравнить</a>
+						   		</li>
+						   		<li class="site-header-action-item">
+						   			<a href="#" class="site-header-action-link">Корзина</a>
+						   		</li>
+						   	</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="site-footer-middle-row grid-row justify-content-between">
+				<div class="site-footer-address-column grid-column">
+					<address class="site-footer-address">
+						г. Москва, ул. Строителей, 15
+					</address>
+				</div>
+				<div class="site-footer-categolia-list-column grid-column">
+					<ul class="site-footer-menu-list list-style-none">
+						<li><a href="#">Доставка</a></li>
+						<li><a href="#">Гарантия</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="site-footer-phone-column grid-column">
+					<p class="site-footer-phone">
+						Тел: +7(495)495-95-95
+					</p>
+				</div>
+			</div>
+			<div class="site-footer-bottom-row grid-row justify-content-between">
+				<div class="site-footer-decoration-column grid-column">
+					<div class="yellow-line"></div>
+				</div>
+				<div class="site-footer-social-column grid-column">
+					<ul class="site-footer-social list-style-none">
+						<li>
+							<a href="#">Facebook</a>
+						</li>
+						<li>
+							<a href="#">Instagram</a>
+						</li>
+						<li>
+							<a href="#">Twitter</a>
+						</li>
+					</ul>
+				</div>
+				<div class="site-footer-developer-column grid-column">
+					<p>	
+			   			<a href="#" class="made-in-link">html academy</a>
+			   		</p>
+				</div>
+			</div>
+		</div>
 	</footer>
 
 	<!--Modal-->

@@ -30,6 +30,16 @@
     font-style: normal;
 }
 
+html{
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -45,9 +55,10 @@ body {
 a {
 	text-decoration: none;
 }
+
 /*--Header--*/
-.site-header {
-	padding-top: 21px;
+.site-header-navigation {
+	padding: 40px 60px 60px 60px;
 	background-image: linear-gradient(to bottom, #fff 13%, #f7e296 13%);
 }
 
@@ -60,7 +71,7 @@ a {
 }
 
 .input-search {
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: "Open Sans";
 	font-weight: 300;
 	font-size: 15px;
 	color: rgba(0, 0, 0, 0.3);
@@ -105,6 +116,8 @@ a {
 
 .list-style-none {
 	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 .site-header-menu-list ul {
@@ -113,7 +126,7 @@ a {
 
 .site-header-action-link,
 .site-header-enter-link {
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: "Open Sans";
 	font-weight: 300;
 	color: #000000;
 	font-size: 15px;
@@ -130,7 +143,7 @@ a {
 }
 
 .site-header-menu-drop .site-header-menu-item-link {
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: "Open Sans";
 	font-weight: 300;
 	font-size: 15px;
 	letter-spacing: 0.15px;
@@ -240,7 +253,7 @@ a {
 }
 
 .site-footer-phone {
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: "Open Sans";
 	color: #ffffff;
 	font-weight: 300;
 }
@@ -253,7 +266,7 @@ a {
 .breadcrumbs-item,
 .breadcrumbs-item a {
 	font-size: 14px;
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: "Open Sans";
 	font-weight: 300;
 	line-height: 24px;
 	letter-spacing: 0.14px;
@@ -291,7 +304,7 @@ a {
 }
 
 .filter-option-label {
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: "Open Sans";
 	color: #000000;
 	font-size: 14px;
 	letter-spacing: 0.14px;
@@ -306,7 +319,7 @@ a {
 }
 
 .add-to-compare {
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: "Open Sans";
 	font-size: 13px;
 	letter-spacing: 0.13px;
 	line-height: 36px;
@@ -343,7 +356,7 @@ a {
 }
 
 .sort-item a {
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: "Open Sans";
 	font-weight: 400;
 	line-height: 18px;
 	color: rgba(0, 0, 0, 0.3);
@@ -448,4 +461,171 @@ a {
 .modal-close:focus {
 	opacity: 0.3;
 	outline: none;
+}
+
+/*--Grid--*/
+.content-box-component {   
+	box-sizing: content-box;  
+}
+
+.container{
+	max-width: 1200px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.grid-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid-column{
+	width: 100%;
+}
+
+.site-header-search{
+	width: 440px;
+}
+
+.site-header-enter-action-column  {
+	width: 500px;
+}
+
+/*--header Grid serch and top menu--*/
+.site-header-logo-row {
+	margin-bottom: 34px;
+}
+
+.site-header-search {
+	width: 440px;
+}
+
+.site-header-top-lists-column{
+	width: 500px;
+}
+
+.justify-content-between{
+	justify-content: space-between;
+}
+
+.site-header-enter-column {
+	width: 260px;
+}
+
+.site-header-action-column {
+	width: 220px;
+}
+/*-- Index main --*/
+.categories-list .categories-list-item{
+	width: 160px;
+}
+
+.brands-item{
+	width: 260px;
+}
+
+.about-us {
+	width: 480px;
+}
+
+.contacts {
+	width: 560px;
+}
+
+.contacts-about-us-container,
+.brands {
+	margin-bottom: 90px;
+}
+
+/*--Grid footer--*/
+.site-footer {
+	padding: 65px 0;
+}
+
+.site-footer-logo {
+	width: 180px;
+}
+
+.site-footer-top-lists-column {
+	width: 480px;
+}
+
+.site-footer-address-column {
+	width: 260px;
+}
+
+.site-footer-categolia-list-column {
+	width: 440px;
+}
+
+.site-footer-phone-column {
+	width: 180px;
+}
+
+.site-footer-decoration-column {
+	width: 100px;
+}
+
+.site-footer-social-column{
+	width: 160px;
+}
+
+.site-footer-developer-column{
+	width: 100px;
+}
+
+.site-footer-top-row {
+	margin-bottom: 42px;
+}
+
+.site-footer-middle-row {
+	margin-bottom: 70px;
+}
+
+/*--Catalo page container--*/
+
+.filter-column {
+	width: 330px;
+}
+
+.sor-catalog-column {
+	width: 830px;
+}
+
+.filter {
+	padding-left: 60px;
+	padding-right: 68px;
+}
+
+.sort {
+	padding-left: 70px;
+}
+
+.catalog {
+	padding: 70px 0 77px 70px;
+}
+
+.catalog-list-item{
+	width: 360px;
+}
+
+.catalog-list-item:nth-child( n + 2 ){
+	margin-top: 50px;
+}
+
+.breadcrumbs-headline-container {
+	margin-top: 40px;
+}
+
+.catalog-page-content {
+	margin-top: 50px;
+}
+
+.pagination-list{
+	margin-top: 40px;
+}
+
+/*--Modal write-us-modal--*/
+.modal{
+	max-width: 960px;
 }
