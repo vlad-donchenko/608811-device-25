@@ -421,7 +421,7 @@ a {
 
 .pagination-next a:hover,
 .pagination-back a:hover {
-	color: rgba(0, 0, 0);
+	color: rgba(0, 0, 0, 1);
 	background-color: #d8d8d8;
 }
 
