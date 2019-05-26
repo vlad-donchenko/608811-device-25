@@ -405,7 +405,7 @@ a {
 }
 
 .pagination-item a:focus {
-	color: rgba(0, 0, 0);
+	color: rgba(0, 0, 0, 1);
 }
 
 .pagination-item-active {
