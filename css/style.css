@@ -1057,7 +1057,7 @@ a {
 	justify-content: center;
 	background-color: #f7e296;
 	width: 160px;
-	min-height: 160px;
+	height: 160px;
 	text-align: center;
 	padding: 0 13px;
 }
