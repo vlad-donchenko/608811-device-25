@@ -92,11 +92,23 @@ a {
 	color: rgba(0, 0, 0, 0.3);
 }
 
+.input-search:-ms-input-placeholder{
+	color: rgba(0, 0, 0, 0.3);
+}
+
 .input-search:hover::placeholder {
 	color: rgba(0, 0, 0, 0.6);
 }
 
+.input-search:hover:-ms-input-placeholder{
+	color: rgba(0, 0, 0, 0.6);
+}
+
 .input-search:focus::placeholder {
+	color: rgb(0, 0, 0);
+}
+
+.input-search:focus:-ms-input-placeholder{
 	color: rgb(0, 0, 0);
 }
 
@@ -573,7 +585,6 @@ a {
 /*--Grid--*/
 
 .content-box-component {
-	   
 	box-sizing: content-box;
 }
 
