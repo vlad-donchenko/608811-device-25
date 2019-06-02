@@ -345,12 +345,6 @@ a {
 	letter-spacing: 0px;
 }
 
-.site-footer-phone {
-	font-family: "Open Sans", Arial, sans-serif;
-	color: #ffffff;
-	font-weight: 300;
-}
-
 /*--Catalog page--*/
 
 .h1 {
@@ -393,7 +387,7 @@ a {
 .add-to-compare {
 	display: inline-block;
 	margin-top: 6px;
-	font-family: "Open Sans";
+	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 13px;
 	letter-spacing: 0.13px;
 	line-height: 36px;
@@ -867,7 +861,7 @@ a {
 }
 
 .site-header-bottom-navigation-row {
-	margin-right: -4px;
+	margin-right: -11px;
 }
 
 .site-header-menu-item-is-drop:hover .site-header-menu-drop {
@@ -1285,9 +1279,25 @@ a {
 
 .site-footer-phone {
 	font-family: "Open Sans", Arial, sans-serif;
+	color: #ffffff;
+	font-weight: 300;
 	margin: 0;
 	line-height: 23px;
 	letter-spacing: 0.1px;
+}
+
+.site-footer-phone a{
+	color: #ffffff;
+	line-height: 23px;
+	letter-spacing: 0.1px;
+}
+
+.site-footer-phone a:hover{
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.site-footer-phone a:focus{
+	color: rgba(255, 255, 255, 0.3);
 }
 
 .site-footer-address-column {
