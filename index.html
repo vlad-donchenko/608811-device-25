@@ -124,7 +124,7 @@
 				<div class="products-slider-row grid-row">
 					<div class="products-slider-column grid-column">
 						<div class="products-slider-wrapper">
-							<div class="products-slider-wrapper-item products-slider-active grid-row">
+							<div class="products-slider-wrapper-item grid-row">
 								<div class="products-slider-img">
 									<img src="img/slider-main/slider-1.png" width="384" height="486" alt="Селфи палка Делай селфи, как Бен Стиллер!">
 								</div>
@@ -252,13 +252,16 @@
 						</div>
 						<ul class="products-slider-dots list-style-none grid-row">
 							<li class="products-slider-dots-item products-slider-dots-active">
-								<button type="button" class="slider-dots-button"></button>
+								<button type="button" class="slider-dots-button" 
+								onclick="currentSlide(1)"></button>
 							</li>
 							<li class="products-slider-dots-item">
-								<button type="button" class="slider-dots-button"></button>
+								<button type="button" class="slider-dots-button"
+								onclick="currentSlide(2)"></button>
 							</li>
 							<li class="products-slider-dots-item">
-								<button type="button" class="slider-dots-button"></button>
+								<button type="button" class="slider-dots-button"
+								onclick="currentSlide(3)"></button>
 							</li>
 						</ul>
 					</div>
@@ -339,16 +342,17 @@
 					<div class="information-slider-navigation grid-column">
 						<ul class="information-slider-dots list-style-none">
 							<li class="information-slider-dots-item information-slider-dots-active">
-								<button type="button" class="standard-button">
+								<button type="button" class="standard-button" onclick="currentSlide__info(1)">
 									Доставка
 								</button>
 							</li>
 							<li class="information-slider-dots-item">
-								<button type="button" class="standard-button">
+								<button type="button" class="standard-button" onclick="currentSlide__info(2)">
 									Гарантия
 								</button>
 							</li>
-							<li class="information-slider-dots-item">
+							<li class="information-slider-dots-item" 
+							onclick="currentSlide__info(3)">
 								<button type="button" class="standard-button">
 									Кредит
 								</button>
@@ -357,7 +361,7 @@
 					</div>
 					<div class="information-slider-content grid-column">
 						<div class="information-slider-wrapper">
-							<div class="information-slider-item information-slider-active grid-row">
+							<div class="information-slider-item grid-row">
 								<div class="information-slider-text">
 									<p class="information-slider-text-headline">
 										Доставка

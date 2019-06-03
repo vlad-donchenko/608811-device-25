@@ -243,7 +243,7 @@ a {
 .h2::before {
 	content: " ";
 	display: block;
-	margin-bottom: 46px;
+	margin-bottom: 44px;
 	height: 7px;
 	width: 80px;
 	background-color: #000000;
@@ -917,6 +917,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	width: 565px;
+	height: 486px;
 	text-align: center;
 }
 
@@ -1042,6 +1043,10 @@ a {
 	top: 317px;
 }
 
+.slider-dots-button:focus{
+	outline: none;
+}
+
 .slider-dots-button:focus:after,
 .slider-dots-button:hover:after,
 .products-slider-dots-active .slider-dots-button:after {
@@ -1101,12 +1106,13 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 79px 0px 69px 0px;
+	padding: 50px 0px 70px 0px;
 }
 
 .information-slider-content {
 	width: 875px;
 	padding: 82px 47px 61px 117px;
+	min-height: 348px;
 }
 
 .information-slider-dots-item .standard-button {
@@ -1142,12 +1148,13 @@ a {
 	width: 7px;
 	height: 100%;
 	background-color: #000000;
+	max-height: 319px;
 }
 
 .information-slider {
-	padding: 48px 0px 69px 0px;
-	background-image: linear-gradient(to bottom, #fff 34%, #e5e5e5 26%);
-	margin-bottom: 94px;
+    padding: 48px 0px 41px 0px;
+    background-image: linear-gradient(to bottom, #fff 34%, #e5e5e5 29%);
+    margin-bottom: 94px;
 }
 
 .information-slider-dots-item {
@@ -1205,7 +1212,7 @@ a {
 .contacts .h2,
 .about-us .h2 {
 	margin: 0;
-	margin-bottom: 44px;
+	margin-bottom: 43px;
 }
 
 .company-list {
@@ -1559,9 +1566,11 @@ a {
 	display: block;
 	width: 11px;
 	height: 11px;
-	background-image: url("../img/svg-device/icon-up-dir.svg");
 	background-repeat: no-repeat;
+	background-size: contain;
 }
+
+
 
 .sort-simple-item .sort-simple-action {
 	opacity: 0.2;
@@ -1592,8 +1601,13 @@ a {
 	margin-right: 40px;
 }
 
+.sort-simple-up {
+	background-image: url("../img/svg-device/icon-up-dir.svg");
+}
+
+
 .sort-simple-down {
-	transform: rotate(-180deg);
+	background-image: url("../img/svg-device/icon-down-dir.svg");
 }
 
 .catalog-page-content {
@@ -1892,14 +1906,14 @@ textarea.input {
 	display: none;
 }
 
-.products-slider-active {
-	display: flex;
-}
-
 .information-slider-item{
 	display: none;
 }
 
-.information-slider-active{
-	display: flex;
+.site-footer .site-header-exit{
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.site-header .site-header-exit{
+	color: rgba(0, 0, 0, 0.3);
 }
