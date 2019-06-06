@@ -824,9 +824,7 @@ a {
 	top: 17px;
 	width: 16px;
 	height: 16px;
-	background: url("../img/svg-device/search.svg");
-	background-size: contain;
-	background-repeat: no-repeat;
+	background: center / contain no-repeat url("../img/svg-device/search.svg");
 }
 
 .site-header-search-icon:after {
