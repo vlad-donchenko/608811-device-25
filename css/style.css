@@ -168,6 +168,7 @@ a {
 	-o-transition: 0.1s;
 	transition: 0.1s;
 	display: inline-block;
+	vertical-align: baseline;
 	padding: 7px 19px;
 	font-size: 15px;
 	line-height: 30px;
@@ -453,6 +454,7 @@ a {
 
 .add-to-compare {
 	display: inline-block;
+	vertical-align: baseline;
 	margin-top: 6px;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 13px;
@@ -610,6 +612,7 @@ a {
 
 .modal-close {
 	display: inline-block;
+	vertical-align: baseline;
 	padding: 10px;
 	position: absolute;
 	right: 22px;
@@ -1509,6 +1512,7 @@ a {
 
 .logo {
 	display: inline-block;
+	vertical-align: middle;
 }
 
 .logo img {
@@ -2115,6 +2119,12 @@ textarea.input {
 .modal-error {
   -webkit-animation: shake 0.6s;
           animation: shake 0.6s;
+}
+
+.filter-radio:focus + .filter-option-label,
+.filter-input:focus + .filter-option-label {
+	outline: 1px dotted #212121;
+    outline: 5px auto -webkit-focus-ring-color;
 }
 
 @-webkit-keyframes bounceleft {
