@@ -937,8 +937,13 @@ a {
     margin-right: -11px;
 }
 
-.site-header-menu-item-is-drop:focus-within .site-header-menu-drop,
 .site-header-menu-item-is-drop:hover .site-header-menu-drop {
+    visibility: visible;
+    opacity: 1;
+    z-index: 2;
+}
+
+.site-header-menu-item-is-drop:focus-within .site-header-menu-drop{
     visibility: visible;
     opacity: 1;
     z-index: 2;
