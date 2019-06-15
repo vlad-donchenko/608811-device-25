@@ -307,8 +307,7 @@ a {
     letter-spacing: 0.1px;
 }
 
-.company-list li,
-.company-list b {
+.company-list li{
     font-size: 16px;
     font-weight: 800;
     color: #000000;
