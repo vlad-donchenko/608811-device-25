@@ -65,10 +65,11 @@ a {
 }
 
 .site-header-navigation {
-    margin-top: 40px;
-    padding: 34px 60px 50px 60px;
+    margin-top: 0;
+    padding: 22px 60px 50px 60px;
     background: #f7e296;
     position: relative;
+    box-shadow: inset 0 40px white;
 }
 
 .visually-hidden {
@@ -2100,9 +2101,7 @@ textarea.input {
 }
 
 .site-header .logo {
-    position: absolute;
-    top: -19px;
-    left: 59px;
+    margin-bottom: 17px;
 }
 
 .catalog-list-item {
