@@ -491,6 +491,12 @@ a {
     z-index: 2;
 }
 
+.catalog-list-item-wrapper-header:focus-within .catalog-list-item-action{
+    visibility: visible;
+    opacity: 1;
+    z-index: 2;
+}
+
 .add-to-compare:hover {
     color: rgb(0, 0, 0);
 }
