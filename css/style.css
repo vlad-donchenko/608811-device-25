@@ -69,6 +69,7 @@ a {
     padding: 22px 60px 50px 60px;
     background: #f7e296;
     position: relative;
+    -webkit-box-shadow: inset 0 40px white;
     box-shadow: inset 0 40px white;
 }
 
@@ -464,7 +465,6 @@ a {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
-    visibility: hidden;
     z-index: -1;
     opacity: 0;
     display: -webkit-box;
@@ -486,13 +486,11 @@ a {
 }
 
 .catalog-list-item-wrapper:hover .catalog-list-item-action {
-    visibility: visible;
     opacity: 1;
     z-index: 2;
 }
 
-.catalog-list-item-wrapper-header:focus-within .catalog-list-item-action{
-    visibility: visible;
+.catalog-list-item-wrapper:focus-within .catalog-list-item-action{
     opacity: 1;
     z-index: 2;
 }
@@ -2106,7 +2104,7 @@ textarea.input {
     display: flex;
 }
 
-.site-header .logo {
+.site-header .logo-column {
     margin-bottom: 17px;
 }
 
